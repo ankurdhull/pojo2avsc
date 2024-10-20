@@ -4,11 +4,10 @@
 package com.discc;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-class LibraryTest {
+class Pojo2AvscGeneratorTest {
     @Test void someLibraryMethodReturnsTrue() {
-        Library classUnderTest = new Library();
+        Pojo2AvscGenerator classUnderTest = new Pojo2AvscGenerator();
 //        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
     }
 }
